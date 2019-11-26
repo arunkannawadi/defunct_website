@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Webpage of Arun Kannawadi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="templates/academicons-1.8.6/css/academicons.min.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+                            <span class="image avatar48"><a href="#top"><img src="images/avatar.jpg" alt="" /></a></span>
+                            <h1 id="title"><a href="index.html">Arun Kannawadi</a></h1>
+							<p>Observational Cosmologist</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html" id="top-link"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#top" id="research-link"><span class="icon fa-th">Research</span></a></li>
+								<li><a href="#mentorship" id="about-link"><span class="icon fa-user">Mentoring</span></a></li>
+								<li><a href="#teaching" id="teaching-link"><span class="icon fa-graduation-cap">Teaching</span></a></li>
+								<li><a href="#publications" id="contact-link"><span class="icon fa-book">Publications</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+                            <li><a href="https://www.researchgate.net/profile/Arun_Kannawadi"><i class="ai ai-researchgate-square ai-1x"></i><span class="label"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/arun-kannawadi-jayaraman-00501623/" class="icon fa-linkedin fa-1x"><span class="label"></span></a></li>
+                            <li><a href="#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://ui.adsabs.harvard.edu/#search/q=kannawadi&sort=date%20desc%2C%20bibcode%20desc&p_=0"><i class="ai ai-ads-square ai-2x"></i></a></li>
+                            <li><a href="https://scholar.google.com/citations?hl=en&user=QoX9bu8AAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i><span class="label"></span></a></li>
+							<li><a href="https://github.com/arunkannawadi" class="icon fa-github fa-2x"><span class="label">Github</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Home -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+                                <h2 class="alt">Hi! I'm <strong>Arun Kannawadi</strong>, Ph. D. <br> I am an observational cosmologist/astronomer.</h2>
+								<p>I am a postdoctoral research associate at the Leiden Observatory.<br />
+                                Starting October 2019, I will be an Associate Professional Specialist at <br> the Department of Astrophysical Sciences, Princeton University.</p>
+							</header>
+
+							<footer>
+								<a href="#publications" class="button scrolly">Publications</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Teaching -->
+					<section id="projects" class="two">
+						<div class="container">
+
+							<header>
+                                <h2><center>Research Projects</center></h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+                            <header>
+                                <h3 id="metacalibration">Metacalibration</h3>
+                            </header>
+
+                            <p>The complexity and the realism in the image simulations must be increase to calibrate shear as the lensing surveys get better and the precision in our results improve. Metacalibration is a new player in the field which attempts to solve this problem by calibrating shear from the observed image itself. However, this relies on the images being Nyquist sampled. By design, space-based surveys such as Euclid and WFIRST are not Nyquist-sampled.</p>
+
+                            <p>We attempted to quantify the impact on shear biases for Euclid if we were to use this approach on the individual exposures. We see clear evidence of biases in galaxy shapes that depend on the size, ellipticity and the orientation of the galaxies! Our preliminary analysis suggests that the bias misestimation can be as hugh as 5% making metacalibration not a viable option for these space-based missions. We are working on getting this paper to its final form. Accurate shear measurement for these missions is going to be challenging task! </p>
+
+                            <p>In order to circumvent this problem, and to mitigate the issue of introducing a shear-dependent noise correlation, I am developing an alternative approach to metacalibration. In contrast to the original, <i>active</i> metacalibration where the observed data is altered, my approach is <i>passive</i> involving the manipulation of the filter functions (weight functions) used to extract shear from galaxy images.
+
+                            <header>
+                                <h3 id="emulation">Emulating cosmic shear data</h3>
+                            </header>
+
+                            <p> Galaxy shapes measured from noisy images are noisy and biased, since the shape is a non-linear function of the pixel values. This in turn leads to biased estimates for the weak lensing shear if not corrected for, and is known as noise bias. The precise value of the noise bias depends on the size and the signal-to-noise ratio of the galaxies, and hence are specific to each survey. The magnitude of the noise bias is typically evaluated through image simulations. And because the bias is survey specific, it is critical that the simulations match the data.</p>
+
+                            <p> We achieve this by taking the intrinsic galaxy properties from HST and simulating them under KiDS observing conditions. The animation on the right shows our emulations of a part of the COSMOS field. This work has highlighted the importance of accurately capturing the joint distributions, such as that of size-ellipticity, failing which the bias estimates can be very different from the true biases. The emulation also has an advantage that the galaxies can be assigned true photometric and spectroscopic redshifts from data, thereby enabling to quantify the impact of bias in tomographic bins due to errors in redshift.  </p>
+
+                            <p> Papers that have out of this project: </p>
+                            <ol reversed>
+                            <li> <a href="#">KiDS+ VIKING-450: Cosmic shear tomography with optical+ infrared data</a><br>
+                                H. Hildebrandt, F. Köhlinger, J. L. van den Busch, B. Joachimi, C. Heymans, <b>A. Kannawadi</b>, A. H. Wright, M. Asgari, C. Blake, H. Hoekstra, S. Joudaki, K. Kuijken, L. Miller, C. B. Morrison, T. Tröster, A. Amon, M. Archidiacono, S. Brieden, A. Choi, J. T.A.  de Jong, T. Erben, B. Giblin, A. Mead, J. A. Peacock, M. Radovich, P. Schneider, C. Sifón, M. Tewes (2019), submitted to A&A </li>
+                                <li> <a href="">Towards emulating cosmic shear data: revisiting the calibration of the shear measurements for the Kilo-Degree Survey</a><br>
+                                    <b>A. Kannawadi</b>, H. Hoekstra, L. Miller, M. Viola, I. Fenech Conti, R. Herbonnet, T. Erben, C. Heymans, H. Hildebrandt, K. Kuijken, M. Vakili, A. H. Wright (2019), submitted to A&A </li>
+                            </ol>
+                            <hr>
+                            <header>
+                                <h3 id="detectors">Near infrared detectors for WFIRST</h3>
+                            </header>
+
+                            <p> Interpixel Capacitance (IPC) refers to the cross-talk between pixels in hybrid-CMOS detectors such as those that will be used in WFIRST mission. IPC being a linear effect, affects both the PSFs and the galaxy images. While measuring the intrinsic galaxy shapes, the effect of PSF is corrected for, which should also correct for most of the effects due to IPC. However, because of the way we define shapes, the cancellation is not exact and some residual effect of IPC remains. In this study, we seek to find if it contributes significantly to the bias in the lensing shear measurements.</p>
+
+                            <p> Accounting the effects of the point spread function (PSF) of a telescope is one of the most challenging tasks for weak gravitational lensing. Accurate knowledge of the PSF is thus an essential for surveys that attempt to obtain scientific conclusions from weak lensing. Future surveys such as WFIRST have strict PSF requirements in order to achieve their promise. Detector non-idealities downgrade the PSFs from being diffraction limited and introduce some variation in the PSFs. We studied one such detector non-ideality called the Interpixel Capacitance (IPC) in detail. IPC is a form of cross-talk between pixels. The effect of IPC is to broaden the PSF decreasing the effective resolution of the telescope and correlates the noise. </p>
+
+                            <p> Using the WFIRST module in GalSim, we simulated realistic WFIRST PSFs in the bands that we care for weak lensing. Using our results on these simulated PSFs,we translated the PSF requirements into IPC requirements. Our work forms an important guideline in specifying the detector requirements. This work was done in collaboration with teams at the Jet Propulsion Laboratory, Pasadena and at the Goddard Space Flight Center, Maryland. </p>
+
+                            <p> Papers that have come out of this project: </p>
+                            <ol reversed>
+                            <li> The Impact of Interpixel Capacitance on shear calibration<br>
+                                <b>A. Kannawadi</b>, R. Mandelbaum, C. A. Shapiro, J. D. Rhodes (in prep.)</li>
+                            <li> <a href="#">The Impact of Interpixel Capacitance in CMOS Detectors on PSF shapes and Implications for WFIRST</a><br>
+                                    <b>A. Kannawadi</b>, C. A. Shapiro, R. Mandelbaum, C. M. Hirata, J. W. Kruk, J. D. Rhodes (2016), PASP 128 (967), 095001. </li>
+                            <li> <a href="#">The effect of detector nonlinearity on WFIRST PSF profiles for weak gravitational lensing measurements</a><br>
+                                A.A. Plazas, C. Shapiro, <b>A. Kannawadi</b>, R. Mandelbaum, J. Rhodes, R. Smith (2016), PASP 128 (968), 104001 </li>
+                            </ol>
+                            <hr>
+
+                            <header>
+                                <h3 id="simulations">Galaxy image simulations</h3>
+                            </header>
+                            <p> In this work, we highlight the shortcomings of using a deep narrow sample as a training sample to obtain redshift-dependent shear calibration biases for large surveys. Using COSMOS catalog, which is the largest contiguous survey from the Hubble Space Telescope, we showed that individual redshift bins were dominated by a single (or few) overdensities and voids. Thus, they cannot be used to obtain the redshift-dependent calibration for shear estimates since the sample is dominanted by local environment and is not a representative sample of the Universe. We tried a few possible techniques to mitigate this effect, but nonetheless, the environment effects were too strong to obtain a useful training sample from COSMOS.</p>
+
+                            <p> Papers that have come out of this project: </p>
+                            <ol reversed>
+                            <li> <a href="#">The impact of cosmic variance on simulating weak lensing surveys</a><br>
+                                    <b>A. Kannawadi</b>, R. Mandelbaum, C. Lackner (2015) MNRAS 449 (4), 3597-3612</li>
+                            <li> <a href="#">The third gravitational lensing accuracy testing (GREAT3) challenge handbook</a><br>
+                                R. Mandelbaum, B. Rowe, J. Bosch, C. Chang, F. Courbin, M. Gill, M. Jarvis, <b>A. Kannawadi</b>, T. Kacprzak, C. Lackner, A. Leauthaud, H. Miyatake, R. Nakajima, J. Rhodes, M. Simet, J. Zuntz, B. Armstrong, S. Bridle, J. Coupon, J. P. Dietrich, M. Gentile, C. Heymans, A. S. Jurling, S. M. Kent, D. Kirkby, D. Margala, R. Massey, P. Melchior, J. Peterson, A. Roodman, T. Schrabback (2014) ApJS, 212 (1), 5 </li>
+                            </ol>
+                            <hr>
+
+                            <header>
+                                <h3 id="sparsity">Sparse decomposition of galaxies</h3>
+                            </header>
+                            <p> Gauss-Hermite polynomials (also known as shapelets) form a set of localised, complete basis functions that can in principle capture the complex morphology of galaxies. However, in the presence of features, such as spiral arms or knots, this basis function may not be very effective in practice. Moreover, the pixel noise in the images forbid the inference of higher order coefficients reliably. Instead, compound shapelets consisting of shapelets of multiple shapes (and centroids) can represent a complex galaxy more effectively. It may be seen as a generalisation of a 2-D Gaussian mixture model (GMM). Using this overcomplete basis as a Dictionary, we can decompose any given galaxy by imposing sparsity constraint. We then aim to develop a generative model of realistic galaxy images by training on the galaxy images in Nearby Galaxy Catalog (NGC). This has some advantages over Deep Learning methods, in that the seeing can be treated separately. </p>
+
+                            <header>
+                                <h3 id="entanglement">Quantum entanglement in Heisenberg spin-glass systems</h3>
+                            </header>
+                            <p> A collection of spins or qubits will have a definite z-component of the total angular momentum. This conserved angular momentum component is also referred to as a particle-number. Definite-particle states are quantum states of the entire system with a definite particle-number. Earlier works have showed that that in the case of random one-particle states, the average entanglement between any two qubits decreases with the number of spins and that in the case of random two-particle states, the average entanglement between any two qubits decreases with the square of the number of spins. While this is true when averaged over all two-particle states, we find a special class of two-particle states, which can be obtained fron one-particle states, for which the average entanglement still scales inversely to the first power of the number of qubits. We also show that such states occur very naturally in systems such as the Heisenberg spin-glass. We provide both analytical and results from numerical simulations and distinguish these states from typical two-particle states. </p>
+
+                            <p> Paper that has come out of this project: </p>
+                            <ol reversed>
+                                <li> <a href="#">Persistent entanglement in a class of eigenstates of quantum Heisenberg spin glasses</a><br>
+                                    <b>A. Kannawadi</b>, A. Sharma, A. Lakshminarayan (2016) EPL 115, 57005</li>
+                            </ol>
+
+                            <header>
+                                <h3 id="mentorship">Mentoring experience</h3>
+                            </header>
+                            <ul>
+                                <li>I am supervising Paul Couzy, an MSc student at Leiden Observatory for his Masters Thesis, for the academic year 2018-2019. His thesis involves quantifying the contribution to the bias in the shear estimates due to the azimuthal variations in an otherwise smooth galaxy profile.</li><br> 
+                                <li>I supervised Erik Rosenberg, an undergraduate student from Stanford Univeristy, who spend his Summer of 2018 as a part of the LEAPS programme. He worked on exploring the limitations of a state-of-the-art approach, called metacalibration, when dealing with undersampled galaxy images, as it would be in the case of space-based surveys. The results from this 10-week project is interested and will be published soon.</li><br> 
+                                <li>I supervised <a href="http://alas.matf.bg.ac.rs/~af14070">Andrija Kostic</a>, an undergraduate student from the University of Belgrade, who spent his Summer of 2017 as a part of the LEAPS programme. He worked on implementing various Shapelets and tested several decomposition techniques.</li>
+                            </ul>
+                            <hr>
+                            <header>
+                                <h3 id="teaching">Teaching experience</h3>
+                            </header>
+                            <p> I designed and taught a <a href="https://sites.google.com/site/astrotwincolo/meetings/2017-5th-meeting?authuser=0">mini-course on gravitational lensing</a> in University of Antioquia, Columbia. The course consisted of 10 hours of lectures and 10 hours of practical exercises, and was aimed at an advanced undergraduate level. </p>
+
+                            I have been a Teaching Assistant (TA) for some of the undergraduate physics courses at CMU:
+                            <ol>
+                                <li> Physics-II for Science students (33-112, Fall 2012) </li>
+                                <li> SAMS - Electronics (Summer-2, 2012) </li>
+                                <li> Physics-II for Engineers (33-107, Summer-1, 2012) </li>
+                                <li> Matter and Interactions-II (33-132, Spring 2012) </li>
+                                <li>Physics-II for Science students (33-112, Fall 2011) </li>
+                            </ol>
+
+                            <header>
+                                <h3>
+                                    My teaching principle
+                                </h3>
+                            </header>
+                            <p> Most of the science courses today present the currently prevailing scientific theories as facts and focus on the mathematical framework to work out the implications. The introduction to a new subject/topic is mainly about throwing some light at the prerequisites. For e.g., in a general relativity course, discussing the metric and curved spaces in general becomes the introduction before discussing Einstein equation(s) and some interesting solutions. The history of the development is hardly paid attention to. 
+                            </p>
+                            <p> One of the key goals of teaching science should be to impart scientific thinking. If a student is never going to take a science course again in his/her life, then the take away from the course must be not the details but the generic principles and its justification. And I believe it is best done by emphasizing on how the theories we have today came about. It is important to highlight how even a systematic approach to a problem can lead to erroneous conclusions, affected by confirmational bias. Thus, while introducing a new theory, I always focus on other simpler, alternative theories that were adopted before the current successful theory and why the scientific community has disregarded the earlier approaches.
+                            </p>
+                        </div>
+					</section>
+
+                <!-- Biography -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                            <p> I do not believe that the impact of one's research, based on publications, can be captured in one or a handful number of parameters. However, if you must, my <b>h-index</b> is 5 (according to <a href="https://scholar.google.com/citations?hl=en&user=QoX9bu8AAAAJ">Google Scholar</a>). You could access my complete list of publications in any of the format you prefer - <br> <center> [<a href="files/arunkannawadi_publist.pdf">PDF</a>] | [<a href="https://ui.adsabs.harvard.edu/#search/q=kannawadi&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>] (most up-to-date) </center></p> 
+                            <header>
+                                <h3> First-author or corresponding author publications </h3>
+                            </header>
+
+                            <ol reversed>
+                                <li> <a href="">Towards emulating cosmic shear data: revisiting the calibration of the shear measurements for the Kilo-Degree Survey</a><br>
+                                    <b>A. Kannawadi</b>, H. Hoekstra, L. Miller, M. Viola, I. Fenech Conti, R. Herbonnet, T. Erben, C. Heymans, H. Hildebrandt, K. Kuijken, M. Vakili, A. H. Wright (2019), submitted to A&A </li>
+
+                                <li> <a href="#">The Impact of Interpixel Capacitance in CMOS Detectors on PSF shapes and Implications for WFIRST</a><br>
+                                    <b>A. Kannawadi</b>, C. A. Shapiro, R. Mandelbaum, C. M. Hirata, J. W. Kruk, J. D. Rhodes (2016), PASP 128 (967), 095001. </li>
+
+                                <li> <a href="#">Persistent entanglement in a class of eigenstates of quantum Heisenberg spin glasses</a><br>
+                                    <b>A. Kannawadi</b>, A. Sharma, A. Lakshminarayan (2016) EPL 115 (5), 57005 </li>
+
+                                <li> <a href="#">The impact of cosmic variance on simulating weak lensing surveys</a><br>
+                                    <b>A. Kannawadi</b>, R. Mandelbaum, C. Lackner (2015) MNRAS 449 (4), 3597-3612</li>
+
+                            <br>
+                            <header>
+                                <h3> Contibuting author publications</h3>
+                            </header>
+                            
+                            <li> <a href="#">The dependence of intrinsic alignment of galaxies on wavelength using KiDS and GAMA</a><br>
+                                C. Georgiou, H. Johnston, H. Hoekstra, M. Viola, K. Kuijken, B. Joachimi, N. E. Chisari, D. J. Farrow, H. Hildebrandt, B. W. Holwerda, <b>A. Kannawadi</b>, A&A 622, A90 </li>
+
+                            <li> <a href="#">KiDS+ VIKING-450: Cosmic shear tomography with optical+ infrared data</a><br>
+                                H. Hildebrandt, F. Köhlinger, J. L. van den Busch, B. Joachimi, C. Heymans, <b>A. Kannawadi</b>, A. H. Wright, M. Asgari, C. Blake, H. Hoekstra, S. Joudaki, K. Kuijken, L. Miller, C. B. Morrison, T. Tröster, A. Amon, M. Archidiacono, S. Brieden, A. Choi, J. T.A.  de Jong, T. Erben, B. Giblin, A. Mead, J. A. Peacock, M. Radovich, P. Schneider, C. Sifón, M. Tewes (2019), submitted to A&A </li>
+                            <li> <a href="#">Luminous red galaxies in the Kilo Degree Survey: selection with broad-band photometry and weak lensing measurements</a><br>
+                                M. Vakili, M. Bilicki, H. Hoekstra, N. E. Chisari, C. Georgiou, <b>A. Kannawadi</b>, K. Kuijken, A. H. Wright (2018), submitted to A&A </li>
+
+                            <li> <a href="#">Cosmological Simulations for Combined-Probe Analyses: Covariance and Neighbour-Exclusion Bias</a><br>
+                                J. Harnois-Deraps, A. Amon, A. Choi, V. Demchenko, C. Heymans, <b>A. Kannawadi</b>, R. Nakajima, E. Sirks, L. van Waerbeke, Y. C. Cai, B. Giblin, H. Hildebrandt, H. Hoekstra, L. Miller, T. Troester (2019) MNRAS, 481, 1337 </li>
+
+                            <li> <a href="#">KiDS-i-800: comparing weak gravitational lensing measurements from same-sky surveys</a><br>
+                                A. Amon, C. Heymans, D. Klaes, T. Erben, C. Blake, H. Hildebrandt, H. Hoekstra, K. Kuijken, L. Miller, C. B. Morrison, A. Choi, J. T. A. de Jong, K. Glazebrook, N. Irisarri, B. Joachimi, S. Joudaki, <b>A. Kannawadi</b>, C. Lidman, N. Napolitano, D. Parkinson, P. Schneider, E. van Uitert, M. Viola, C. Wolf (2018), MNRAS 477 (4), 4285-4307 </li>
+
+                            <li> <a href="#">The effect of detector nonlinearity on WFIRST PSF profiles for weak gravitational lensing measurements</a><br>
+                                A.A. Plazas, C. Shapiro, <b>A. Kannawadi</b>, R. Mandelbaum, J. Rhodes, R. Smith (2016), PASP 128 (968), 104001 </li>
+
+                            <li> <a href="#">The third gravitational lensing accuracy testing (GREAT3) challenge handbook</a><br>
+                                R. Mandelbaum, B. Rowe, J. Bosch, C. Chang, F. Courbin, M. Gill, M. Jarvis, <b>A. Kannawadi</b>, T. Kacprzak, C. Lackner, A. Leauthaud, H. Miyatake, R. Nakajima, J. Rhodes, M. Simet, J. Zuntz, B. Armstrong, S. Bridle, J. Coupon, J. P. Dietrich, M. Gentile, C. Heymans, A. S. Jurling, S. M. Kent, D. Kirkby, D. Margala, R. Massey, P. Melchior, J. Peterson, A. Roodman, T. Schrabback (2014) ApJS, 212 (1), 5 </li>
+                            </ol>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+                        <li>Last modified on Feb 11, 2019</li><li>&copy; All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
