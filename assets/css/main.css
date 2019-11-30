@@ -1781,6 +1781,11 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 		}
 
+        .image.right {
+            float: right;
+            margin: 0 2em 2em 0;
+        }
+
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
@@ -1985,14 +1990,16 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
+			background: #eee;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+            font-color: #fff;
 		}
 
 			.item header h3 {
 				font-size: 1em;
+                font-color: #fff;
 			}
 
 /* Icons */
@@ -2235,7 +2242,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/udf.jpg");
 			}
 
 			#main > section.two {
